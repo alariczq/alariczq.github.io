@@ -1,0 +1,36 @@
+baseURL = 'https://alariczq.github.io/'
+languageCode = 'en-us'
+title = 'Alaric Tech Blog'
+theme = 'PaperMod'
+
+[params]
+  description = "A blog about Rust and software development"
+  author = "Alaric"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+
+[params.homeInfoParams]
+  Title = "Welcome to Alaric's Tech Blog"
+  Content = "Exploring Rust programming and software engineering"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/alariczq"
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    name = "Archive"
+    url = "/archives/"
+    weight = 3
